@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What Websites Can See</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔍 What Websites Can See About You</h1>
+
+  <div id="consent-box">
+    <p>
+      This is an <strong>educational cybersecurity demo</strong>.<br><br>
+      It shows basic information that websites can see from your browser.
+      <br><br>
+      ✅ No data is stored<br>
+      ✅ No tracking<br>
+      ✅ No IP address collected
+    </p>
+
+    <button onclick="showData()">I Understand & Continue</button>
+  </div>
+
+  <div id="data-box" class="hidden">
+    <h2>Your Visible Information</h2>
+    <ul id="info"></ul>
+
+    <h3>🛡️ How to Reduce This Exposure</h3>
+    <ul class="tips">
+      <li>Use privacy-focused browsers (Firefox, Brave)</li>
+      <li>Disable unnecessary permissions</li>
+      <li>Avoid unknown links</li>
+      <li>Use trusted DNS or VPN (when needed)</li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
